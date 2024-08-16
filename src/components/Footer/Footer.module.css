@@ -1,0 +1,18 @@
+.footer {
+    background-color: black;
+    border-top: 2px solid #b44dd3;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b44dd3;
+    width: 100%;
+    padding: 0.5rem;
+
+}
+
+.footer h2 {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
