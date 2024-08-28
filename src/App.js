@@ -2,7 +2,7 @@ import Banner from "./components/Banner";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -10,7 +10,16 @@ function App() {
       <Header />
       <Banner image="a" />
       <Container>
-        <h1> Olá mundo!Estou aprendendo React JS! </h1>
+      <h2> Joji </h2>
+        <section className="cards">
+          <Card id="NgsWGfUlwJI" />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </section>
+        
       </Container>
       <Footer />
       </>
