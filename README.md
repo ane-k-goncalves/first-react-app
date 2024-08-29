@@ -1,4 +1,4 @@
-Projeto desenvolvido apenas para fins de apredizado.
+Projeto desenvolvido apenas para fins de aprendizado.
 
 
 # Getting Started with Create React App
