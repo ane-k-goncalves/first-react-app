@@ -1,13 +1,15 @@
 import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
         <header className={styles.header}>
-            <span>My First APP React JS </span>
+            <Link to="/">
+                <span>My First APP React JS </span>
+            </Link>
             <nav>
-                <a href="#"> Home</a>
-                <a href="#"> Sobre</a>
-             
+                <Link to="/"> Home</Link>
+                <Link to="/watch">Assistir</Link>
             </nav>
         </header>
     );
