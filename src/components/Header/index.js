@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className={styles.header}>
             <Link to="/">
-                <span>My First APP React JS </span>
+                <span>Like </span>
             </Link>
             <nav>
                 <Link to="/"> Home</Link>

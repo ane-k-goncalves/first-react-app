@@ -4,9 +4,11 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Card from "../../components/Card";
 import Category, { categories, filterCategory } from "../../components/Category";
+import { useState } from "react";
 
 
 function Home() {
+
   return (
       <>
       <Header />

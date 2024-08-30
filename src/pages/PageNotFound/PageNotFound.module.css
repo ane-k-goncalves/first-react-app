@@ -1,0 +1,18 @@
+.container {
+    padding-top: 84px;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    color: #988DFF;
+    text-align: center;
+}
+
+.container img {
+    width: 50vh;
+    margin-top: 100px;
+    margin-bottom: 330px;
+}
+
+.container h2 {
+    margin-top: 100px;
+}
